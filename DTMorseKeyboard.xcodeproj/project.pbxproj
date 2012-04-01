@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73ACDFD1528C86F00203223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73ACDFC1528C86F00203223 /* UIKit.framework */; };
+		A73ACDFF1528C86F00203223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73ACDFE1528C86F00203223 /* Foundation.framework */; };
+		A73ACE011528C86F00203223 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73ACE001528C86F00203223 /* CoreGraphics.framework */; };
+		A73ACE071528C86F00203223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A73ACE051528C86F00203223 /* InfoPlist.strings */; };
+		A73ACE091528C86F00203223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73ACE081528C86F00203223 /* main.m */; };
+		A73ACE0D1528C86F00203223 /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73ACE0C1528C86F00203223 /* DTAppDelegate.m */; };
+		A73ACE101528C86F00203223 /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73ACE0F1528C86F00203223 /* DTViewController.m */; };
+		A73ACE131528C86F00203223 /* DTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73ACE111528C86F00203223 /* DTViewController_iPhone.xib */; };
+		A73ACE161528C86F00203223 /* DTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73ACE141528C86F00203223 /* DTViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A73ACDF81528C86F00203223 /* DTMorseKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTMorseKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73ACDFC1528C86F00203223 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A73ACDFE1528C86F00203223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A73ACE001528C86F00203223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A73ACE041528C86F00203223 /* DTMorseKeyboard-Info.plist */ = {isa = PBXFileReference; path = "DTMorseKeyboard-Info.plist"; sourceTree = "<group>"; };
+		A73ACE061528C86F00203223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A73ACE081528C86F00203223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A73ACE0A1528C86F00203223 /* DTMorseKeyboard-Prefix.pch */ = {isa = PBXFileReference; path = "DTMorseKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		A73ACE0B1528C86F00203223 /* DTAppDelegate.h */ = {isa = PBXFileReference; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		A73ACE0C1528C86F00203223 /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
+		A73ACE0E1528C86F00203223 /* DTViewController.h */ = {isa = PBXFileReference; path = DTViewController.h; sourceTree = "<group>"; };
+		A73ACE0F1528C86F00203223 /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
+		A73ACE121528C86F00203223 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPhone.xib; sourceTree = "<group>"; };
+		A73ACE151528C86F00203223 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73ACDF51528C86F00203223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73ACDFD1528C86F00203223 /* UIKit.framework in Frameworks */,
+				A73ACDFF1528C86F00203223 /* Foundation.framework in Frameworks */,
+				A73ACE011528C86F00203223 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73ACDED1528C86F00203223 = {
+			isa = PBXGroup;
+			children = (
+				A73ACE021528C86F00203223 /* DTMorseKeyboard */,
+				A73ACDFB1528C86F00203223 /* Frameworks */,
+				A73ACDF91528C86F00203223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73ACDF91528C86F00203223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73ACDF81528C86F00203223 /* DTMorseKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73ACDFB1528C86F00203223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73ACDFC1528C86F00203223 /* UIKit.framework */,
+				A73ACDFE1528C86F00203223 /* Foundation.framework */,
+				A73ACE001528C86F00203223 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A73ACE021528C86F00203223 /* DTMorseKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A73ACE0B1528C86F00203223 /* DTAppDelegate.h */,
+				A73ACE0C1528C86F00203223 /* DTAppDelegate.m */,
+				A73ACE0E1528C86F00203223 /* DTViewController.h */,
+				A73ACE0F1528C86F00203223 /* DTViewController.m */,
+				A73ACE111528C86F00203223 /* DTViewController_iPhone.xib */,
+				A73ACE141528C86F00203223 /* DTViewController_iPad.xib */,
+				A73ACE031528C86F00203223 /* Supporting Files */,
+			);
+			path = DTMorseKeyboard;
+			sourceTree = "<group>";
+		};
+		A73ACE031528C86F00203223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73ACE041528C86F00203223 /* DTMorseKeyboard-Info.plist */,
+				A73ACE051528C86F00203223 /* InfoPlist.strings */,
+				A73ACE081528C86F00203223 /* main.m */,
+				A73ACE0A1528C86F00203223 /* DTMorseKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73ACDF71528C86F00203223 /* DTMorseKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73ACE191528C86F00203223 /* Build configuration list for PBXNativeTarget "DTMorseKeyboard" */;
+			buildPhases = (
+				A73ACDF41528C86F00203223 /* Sources */,
+				A73ACDF51528C86F00203223 /* Frameworks */,
+				A73ACDF61528C86F00203223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTMorseKeyboard;
+			productName = DTMorseKeyboard;
+			productReference = A73ACDF81528C86F00203223 /* DTMorseKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73ACDEF1528C86F00203223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Drobnik KG";
+			};
+			buildConfigurationList = A73ACDF21528C86F00203223 /* Build configuration list for PBXProject "DTMorseKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A73ACDED1528C86F00203223;
+			productRefGroup = A73ACDF91528C86F00203223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73ACDF71528C86F00203223 /* DTMorseKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73ACDF61528C86F00203223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73ACE071528C86F00203223 /* InfoPlist.strings in Resources */,
+				A73ACE131528C86F00203223 /* DTViewController_iPhone.xib in Resources */,
+				A73ACE161528C86F00203223 /* DTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73ACDF41528C86F00203223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73ACE091528C86F00203223 /* main.m in Sources */,
+				A73ACE0D1528C86F00203223 /* DTAppDelegate.m in Sources */,
+				A73ACE101528C86F00203223 /* DTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A73ACE051528C86F00203223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73ACE061528C86F00203223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A73ACE111528C86F00203223 /* DTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73ACE121528C86F00203223 /* en */,
+			);
+			name = DTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A73ACE141528C86F00203223 /* DTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73ACE151528C86F00203223 /* en */,
+			);
+			name = DTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73ACE171528C86F00203223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A73ACE181528C86F00203223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73ACE1A1528C86F00203223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTMorseKeyboard/DTMorseKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "DTMorseKeyboard/DTMorseKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A73ACE1B1528C86F00203223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DTMorseKeyboard/DTMorseKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "DTMorseKeyboard/DTMorseKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73ACDF21528C86F00203223 /* Build configuration list for PBXProject "DTMorseKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73ACE171528C86F00203223 /* Debug */,
+				A73ACE181528C86F00203223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73ACE191528C86F00203223 /* Build configuration list for PBXNativeTarget "DTMorseKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73ACE1A1528C86F00203223 /* Debug */,
+				A73ACE1B1528C86F00203223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73ACDEF1528C86F00203223 /* Project object */;
+}
