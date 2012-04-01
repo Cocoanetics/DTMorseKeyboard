@@ -180,6 +180,9 @@ static NSUInteger _longestMorseSequence = 0;
 {
 	// send a space
 	[self.inputDelegate insertText:@" "];
+	
+	// empty sequence
+	[_sequence deleteCharactersInRange:NSMakeRange(0, [_sequence length])];
 }
 
 #pragma mark Actions
