@@ -7,6 +7,7 @@
 //
 
 #import "DTViewController.h"
+#import "DTMorseKeyboard.h"
 
 @interface DTViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	DTMorseKeyboard *kb = [[DTMorseKeyboard alloc] initWithDelegate:textField];
+	textField.inputView = kb;
 }
 
 - (void)viewDidUnload
@@ -34,5 +38,9 @@
 	    return YES;
 	}
 }
+
+#pragma mark Properties
+
+@synthesize textField;
 
 @end

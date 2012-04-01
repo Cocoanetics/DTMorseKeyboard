@@ -16,6 +16,7 @@
 		A73ACE101528C86F00203223 /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73ACE0F1528C86F00203223 /* DTViewController.m */; };
 		A73ACE131528C86F00203223 /* DTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73ACE111528C86F00203223 /* DTViewController_iPhone.xib */; };
 		A73ACE161528C86F00203223 /* DTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73ACE141528C86F00203223 /* DTViewController_iPad.xib */; };
+		A73ACE1E1528C91A00203223 /* DTMorseKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A73ACE1D1528C91A00203223 /* DTMorseKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		A73ACDFC1528C86F00203223 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A73ACDFE1528C86F00203223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A73ACE001528C86F00203223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A73ACE041528C86F00203223 /* DTMorseKeyboard-Info.plist */ = {isa = PBXFileReference; path = "DTMorseKeyboard-Info.plist"; sourceTree = "<group>"; };
+		A73ACE041528C86F00203223 /* DTMorseKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTMorseKeyboard-Info.plist"; sourceTree = "<group>"; };
 		A73ACE061528C86F00203223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A73ACE081528C86F00203223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A73ACE0A1528C86F00203223 /* DTMorseKeyboard-Prefix.pch */ = {isa = PBXFileReference; path = "DTMorseKeyboard-Prefix.pch"; sourceTree = "<group>"; };
-		A73ACE0B1528C86F00203223 /* DTAppDelegate.h */ = {isa = PBXFileReference; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		A73ACE0A1528C86F00203223 /* DTMorseKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTMorseKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		A73ACE0B1528C86F00203223 /* DTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAppDelegate.h; sourceTree = "<group>"; };
 		A73ACE0C1528C86F00203223 /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
-		A73ACE0E1528C86F00203223 /* DTViewController.h */ = {isa = PBXFileReference; path = DTViewController.h; sourceTree = "<group>"; };
+		A73ACE0E1528C86F00203223 /* DTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTViewController.h; sourceTree = "<group>"; };
 		A73ACE0F1528C86F00203223 /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
 		A73ACE121528C86F00203223 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPhone.xib; sourceTree = "<group>"; };
 		A73ACE151528C86F00203223 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPad.xib; sourceTree = "<group>"; };
+		A73ACE1C1528C91A00203223 /* DTMorseKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTMorseKeyboard.h; sourceTree = "<group>"; };
+		A73ACE1D1528C91A00203223 /* DTMorseKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMorseKeyboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				A73ACE111528C86F00203223 /* DTViewController_iPhone.xib */,
 				A73ACE141528C86F00203223 /* DTViewController_iPad.xib */,
 				A73ACE031528C86F00203223 /* Supporting Files */,
+				A73ACE1C1528C91A00203223 /* DTMorseKeyboard.h */,
+				A73ACE1D1528C91A00203223 /* DTMorseKeyboard.m */,
 			);
 			path = DTMorseKeyboard;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 				A73ACE091528C86F00203223 /* main.m in Sources */,
 				A73ACE0D1528C86F00203223 /* DTAppDelegate.m in Sources */,
 				A73ACE101528C86F00203223 /* DTViewController.m in Sources */,
+				A73ACE1E1528C91A00203223 /* DTMorseKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

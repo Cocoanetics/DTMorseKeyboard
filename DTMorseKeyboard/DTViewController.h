@@ -10,4 +10,6 @@
 
 @interface DTViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UITextField *textField;
+
 @end
