@@ -30,7 +30,7 @@ static NSUInteger _longestMorseSequence = 0;
 
 + (void)initialize
 {
-	morseLookup = [NSDictionary dictionaryWithObjectsAndKeys:@"a", @"··−·",
+	morseLookup = [NSDictionary dictionaryWithObjectsAndKeys:@"a", @"·−",
 						@"b",@"−···",
 						@"c",@"−·−·",
 						@"d",@"−··",
