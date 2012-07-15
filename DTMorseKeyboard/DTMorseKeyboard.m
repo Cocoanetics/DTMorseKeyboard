@@ -37,6 +37,7 @@ static NSUInteger _longestMorseSequence = 0;
 						@"e",@"·",
 						@"f",@"··−·",
 						@"g",@"−−·",
+						@"h",@"····",
 						@"i",@"··",
 						@"j",@"·−−−",
 						@"k",@"−·−",
